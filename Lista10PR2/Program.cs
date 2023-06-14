@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,7 @@ namespace ConsoleApp9
 
                 for (int i = 0; i < tamanho; i++)
                 {
-                    Console.Write($"Digite o número {i + 1}: ");
+                    Console.Write("Digite o número {i + 1}: ");
                     numeros[i] = float.Parse(Console.ReadLine());
                 }
 
@@ -136,10 +136,29 @@ namespace ConsoleApp9
         public static void Exercicio4()
         {
             Console.WriteLine("here ex4 will be encoded");
+            string[] n;
+            int tamanho = int.Parse(Console.ReadLine());
+
+
+            for (int i = 0; i <= 0; i++)
+            {
+               
+                Console.WriteLine("digite as assinaturas:");
+                n[i] = Console.ReadLine();            
+            }
+
+            for (int i = 0; i < tamanho; i--)
+            {
+                Console.WriteLine("nomes: " + n[i]);
+            }
+
+            
+
         }
         public static void Exercicio5()
         {
             Console.WriteLine("here ex5 will be encoded");
+
         }
 
         static void Main(string[] args)
